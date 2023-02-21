@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pydata-li-trafilatura"
+version = "0.1.0"
+description = ""
+authors = ["oneextrafact <1extrafact@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pydata_li_trafilatura"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+trafilatura = "^1.4.1"
+pandas = "^1.4"
+jupyter = "^1.0.0"
+spacy = "^3.5.0"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
